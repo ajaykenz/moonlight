@@ -17,23 +17,4 @@ window.addEventListener('scroll', function() {
 });
 
 
-// image-slider
 
-let currentIndex = 0;
-
-function moveSlide(direction) {
-    const cards = document.querySelector('.cards');
-    const totalCards = document.querySelectorAll('.card').length;
-    
-    currentIndex += direction;
-
-    // Loop through the cards
-    if (currentIndex < 0) {
-        currentIndex = totalCards - 1;
-    } else if (currentIndex >= totalCards) {
-        currentIndex = 0;
-    }
-    
-    // Move the cards container to show the correct card
-    cards.style.transform = `translateX(-${currentIndex * 270}px)`;  // Adjust for the card width + margin
-}
