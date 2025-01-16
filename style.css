@@ -544,250 +544,6 @@
     }
 }
 
-
-/* section-3 */
-
-
-/* .sec-3{
-    background-image: url('./media/About\ Us\ Wallpaper.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.sec-3-row{
-    width: 80%;
-}
-.cr-img{
-    height: 320px;
-    border-radius: 50px;
-}
-.sec-3-content{
-    font-size: 18px;
-}
-.carousel{
-    border-radius: 30px;
-}
-.sec-3-head{
-    font-family: "Poppins", serif;
-    font-size: 50px;
-    margin-bottom: 40px;
-}
-#sec-3-col-1{
-    padding: 25px;
-}
-#sec-3-col-2{
-    padding: 35px;
-}
-
-@media (max-width:1200px) {
-    .sec-3-row{
-        width: 87%;
-    }
-}
-
-@media (max-width:1100px) {
-    .sec-3-row{
-        width: 93%;
-    }
-}
-
-@media (max-width:1024px) {
-    .sec-3-row{
-        width: 93%;
-    }
-    #sec-3-col-1{
-        padding: 20px;
-    }
-    #sec-3-col-2{
-        padding: 25px;
-    }
-}
-
-@media (max-width:992px) {
-    .sec-3-row{
-        width: 85%;
-    }
-    .sec-3-head{
-        font-family: "Poppins", serif;
-        font-size: 50px;
-        margin-bottom: 40px;
-        margin-top:40px ;
-    }
-    #sec-3-col-2{
-        padding: 35px;
-        margin-bottom:50px ;
-    }
-}
-
-@media (max-width:850px) {
-    .sec-3{
-        background-image: url('./media/768x642\ AU.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-    }
-    .sec-3-row{
-        width: 85%;
-    }
-    .sec-3-head{
-        font-size: 37px;
-        margin-bottom: 40px;
-        margin-top:40px ;
-    }
-    #sec-3-col-2{
-        padding: 35px;
-        margin-bottom:50px ;
-    }
-}
-
-@media (max-width:650px) {
-    .sec-3-row{
-        width: 85%;
-    }
-    .sec-3-head{
-        font-size: 33px;
-        margin-bottom: 30px;
-        margin-top:40px ;
-    }
-    #sec-3-col-2{
-        padding: 35px;
-        margin-bottom:50px ;
-    }
-    .sec-3-content{
-        font-size: 16px;
-    }
-    .sec-3-subhead{
-        font-size: 22px;
-        margin-bottom: 10px;
-    }
-    .list-items-3{
-        font-size: 18px;
-    }
-    #sec-3-col-2{
-        padding: 30px;
-        margin-top: 0px;
-
-    }
-    #sec-3-col-1{
-        padding: 17px;
-    }
-}
-
-@media (max-width:550px) {
-    .sec-3-head{
-        font-size: 30px;
-        margin-bottom: 30px;
-        margin-top:40px ;
-    }
-    .sec-3-subhead{
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
-    .list-items-3{
-        font-size: 16px;
-    }
-}
-
-@media (max-width:500px) {
-    .sec-3-row{
-        width: 88%;
-    }
-    .sec-3-head{
-        font-family: "Poppins", serif;
-        font-size: 28px;
-        margin-bottom: 28px;
-        margin-top:40px ;
-    }
-    .sec-3-subhead{
-        font-size: 19px;
-        margin-bottom: 10px;
-    }
-    .list-items-3{
-        font-size: 16px;
-    }
-    .cr-img{
-        height: 300px;
-        border-radius: 30px;
-    }
-    #sec-3-col-2{
-        padding: 25px;
-    }
-    #sec-3-col-1{
-        padding: 15px;
-    }
-}
-
-@media (max-width:450px) {
-    .sec-3{
-        background-image: url('./media/425X642AU.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .sec-3-row{
-        width: 90%;
-    }
-    .sec-3-head{
-        font-size: 25px;
-        margin-bottom: 28px;
-        margin-top:40px ;
-    }
-    .sec-3-subhead{
-        font-size: 17px;
-        margin-bottom: 10px;
-    }
-    .list-items-3{
-        font-size: 15px;
-    }
-    .cr-img{
-        height: 270px;
-        border-radius: 30px;
-    }
-    #sec-3-col-2{
-        padding: 20px;
-    }
-    #sec-3-col-1{
-        padding: 15px;
-    }
-    .sec-3-content{
-        font-size: 13px;
-    }
-}
-
-@media (max-width:376px) {
-    .sec-3-row{
-        width: 92%;
-    }
-    .sec-3-head{
-        font-size: 23px;
-        margin-bottom: 28px;
-        margin-top:40px ;
-    }
-    .sec-3-subhead{
-        font-size: 17px;
-        margin-bottom: 10px;
-    }
-    .list-items-3{
-        font-size: 14px;
-    }
-    .cr-img{
-        height: 260px;
-        border-radius: 30px;
-    }
-    #sec-3-col-2{
-        padding: 0px;
-    }
-    #sec-3-col-1{
-        padding: 15px;
-    }
-    .sec-3-content{
-        font-size: 13px;
-    }
-} */
-
-
 /* sec-3 design-2 */
 .sec-3 {
     display: flex;
@@ -909,6 +665,12 @@
 }
 
 @media (max-width:800px) {
+    .sec-3-overall {
+        background-image: url("./media/768x642\ AU.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+    }
     .sec-3-head {
         font-size: 39px;
     }
@@ -992,6 +754,12 @@
 }
 
 @media (max-width:450px) {
+    .sec-3-overall {
+        background-image: url("./media/425X642AU.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+    }
     .sec-3-head {
         font-size: 26px;
     }
@@ -1024,5 +792,57 @@
     }
     .sec-3-p {
         font-size: 13px;
+    }
+}
+
+/* sec-4 */
+.sec-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f3f2;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sec-4-col1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.youtube{
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+}
+.sec-4-col2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allrights{
+    margin-top: -35px;
+}
+.footer{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-div{
+    margin: 0px;
+    padding: 0px;
+}
+.li-ul{
+    font-size: 19px;
+}
+
+@media (max-width:425px) {
+    .youtube{
+        height: 250px;
+    }
+    .li-ul{
+        font-size: 16px;
     }
 }

@@ -28,7 +28,7 @@ slides.forEach((slider,index)=>{
 var count=0
 const goPrev=()=>{
     count--
-    if(count>=0 && count<5){
+    if(count>=0 && count<32){
     slideImage()
     }
     else{
@@ -37,7 +37,7 @@ const goPrev=()=>{
 }
 const goNext=()=>{
     count++
-    if(count>=0 && count<=4){
+    if(count>=0 && count<=32){
         slideImage()
         } else{
             count--
@@ -48,3 +48,19 @@ const slideImage=()=>{
         slider.style.transform=`translateX(-${count*18}rem)`
     })
 }
+
+const autoSlide=()=>{
+    if (count <28) {
+        count++;
+      } else {
+        count = 0; // Loop back to the first card
+      }
+      slides.forEach((slider)=>{
+        slider.style.transform=`translateX(-${count*18}rem)`
+    })
+
+}
+
+setInterval(() => {
+    autoSlide()
+  }, 5000);
