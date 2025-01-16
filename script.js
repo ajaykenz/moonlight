@@ -17,4 +17,34 @@ window.addEventListener('scroll', function() {
 });
 
 
+// card-slider
 
+const slides=document.querySelectorAll("#slider")
+// console.log(slider);
+slides.forEach((slider,index)=>{
+    slider.style.left=`${index*18}rem`
+})
+
+var count=0
+const goPrev=()=>{
+    count--
+    if(count>=0 && count<5){
+    slideImage()
+    }
+    else{
+        count++
+    }
+}
+const goNext=()=>{
+    count++
+    if(count>=0 && count<=4){
+        slideImage()
+        } else{
+            count--
+        }
+}
+const slideImage=()=>{
+    slides.forEach((slider)=>{
+        slider.style.transform=`translateX(-${count*18}rem)`
+    })
+}
